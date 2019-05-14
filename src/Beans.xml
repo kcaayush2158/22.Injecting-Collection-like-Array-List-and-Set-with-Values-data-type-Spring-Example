@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="employee" class="com.application.model.Employee">
+        <property name="namesArray">
+            <array>
+                <value>aayush</value>
+                <value>aman</value>
+                <value>avishek</value>
+                <value>avas</value>
+            </array>
+        </property>
+        <property name="namesList">
+            <list>
+                <value>usa</value>
+                <value>china</value>
+                <value>nepal</value>
+                <value>india</value>
+            </list>
+        </property>
+        <property name="namesSet">
+            <set>
+                <value>101</value>
+                <value>102</value>
+                <value>103</value>
+                <value>104</value>
+            </set>
+        </property>
+    </bean>
+</beans>
